@@ -1,0 +1,22 @@
+body{
+    background-color: #870606;
+    max-width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    position: relative;
+    z-index: 2;
+    background: transparent;
+}
+.hero-container{
+    position: relative;
+    margin-top: -140px;
+}
+.hero-container img{
+    position: relative;
+    z-index: 1;
+    width: 775px;
+    display: block;
+}
